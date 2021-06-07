@@ -152,35 +152,9 @@ The steps are:
 7. The predictions will be shown within the Jupyter notebook and also saved to an output file in Comma-Separated Values (CSV) format.
 
 ## How to Contribute
-There are several ways you can contribute to this project.
 
 **Improve the code**
 At the start of this project, we have created a Convolutional Neural Network that classifies images a few of types of fossils proving it can handle some of the obvious challenges.  However, there are improvements that could be made.  You could submit pull requests that cut redundancies, adjust preprocessing parameters, experiment with changing optimizers, tune hyperparameters, try different base models to underlie the transfer learning, etc.
-
-**Add Fossil Images**
-You may have noticed at the top of this document, I wrote about splitting the multi-specimen images into one-per-specimen images.  All that takes is:
-1. Choosing a type of fossil that we have not already loaded (see List of Fossils Covered below)
-2. Create a directory named after the specimen's scientific name (e.g., Fusus Longaevus would get the directory name fusus_longaevus)
-3. Look up images of the fossil using [Oxford University Museum of Natural History](https://oumnh.ox.ac.uk/collections-online#/search) online collection search page.
-4. Cut-and-paste the image to slice out individual specimens.
-5. Save the images with the Object Number and specimen letter as part of the filename into the directory that you created in step 2.  
-6. Once you have added all the specimen's for this fossil, run the copyright utility script (src/utilities/Add_oxford_copyright_to_images.ipynb) against the directory that you created in step 2 to add the necessary copyright acknowledgement to all the images.
-7. Update the list of "Specimens Currently Loaded" section of this document
-8. Submit the pull request with these new images.
-
-## List of Fossils Covered
-
-There are many, many pictures of fossils in the [Oxford Museum of Natural History's online Palaeontology Collection](https://oumnh.ox.ac.uk/collections-online#/search).  We have not yet loaded all of them into this project.  
-
-Here is a list of the fossils we have loaded at this point.  This will be updated as new fossil images are loaded and the model is trained to recognize them.
-
-| **Specimens Currently Loaded** |
-| ------------------------------ |
-| Cardita Rudista |
-| Concentrica Carassatella |
-| Fusus Ficulneus |
-| Fusus Longaevus |
-| Fusus Uniplicatus |
 
 ## Credits
 
