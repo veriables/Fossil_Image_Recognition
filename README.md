@@ -153,8 +153,7 @@ The steps are:
 
 ## How to Contribute
 
-**Improve the code**
-At the start of this project, we have created a Convolutional Neural Network that classifies images a few of types of fossils proving it can handle some of the obvious challenges.  However, there are improvements that could be made.  You could submit pull requests that cut redundancies, adjust preprocessing parameters, experiment with changing optimizers, tune hyperparameters, try different base models to underlie the transfer learning, etc.
+At the start of this project, we have created a Convolutional Neural Network that classifies images a few of types of fossils proving it can handle some of the obvious challenges.  There are, of course, many improvements that could be made.  You could submit pull requests that cut redundancies, adjust preprocessing parameters, experiment with changing optimizers, tune hyperparameters, try different base models to underlie the transfer learning, etc.
 
 ## Credits
 
